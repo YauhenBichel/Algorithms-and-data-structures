@@ -10,6 +10,8 @@ can be found by the technique it needs.
 
 `Java` · `Gradle` · `JUnit 5`
 
+📖 **Browse as a website: [yauhenbichel.github.io/Algorithms-and-data-structures](https://yauhenbichel.github.io/Algorithms-and-data-structures/)**
+
 ---
 
 ## Data Structures

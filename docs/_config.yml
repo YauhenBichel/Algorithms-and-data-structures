@@ -1,0 +1,20 @@
+title: Algorithms and Data Structures in Java
+description: >-
+  Classic algorithms and data structures implemented in Java - sorting, searching,
+  graphs, trees, heaps, tries, dynamic programming and backtracking - with Big-O
+  complexity analysis, source code and JUnit tests.
+author: Yauhen Bichel
+lang: en_GB
+url: https://yauhenbichel.github.io
+baseurl: /Algorithms-and-data-structures
+repository: YauhenBichel/Algorithms-and-data-structures
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope: { path: "" }
+    values: { layout: "default" }
+
+exclude: [Gemfile, Gemfile.lock, vendor]

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+{% seo %}
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<style>
+:root{--bg:#fff;--fg:#1f2328;--muted:#59636e;--line:#d1d9e0;--accent:#0969da;--code:#f6f8fa}
+@media (prefers-color-scheme:dark){:root{--bg:#0d1117;--fg:#e6edf3;--muted:#9198a1;--line:#3d444d;--accent:#4493f8;--code:#161b22}}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);margin:0;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:2rem 1.25rem 4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+h1{font-size:1.9rem;line-height:1.25;margin:.5rem 0 1rem}
+h2{font-size:1.3rem;margin:2.2rem 0 .8rem;padding-bottom:.3rem;border-bottom:1px solid var(--line)}
+nav.top{font-size:.9rem;color:var(--muted);margin-bottom:1.5rem}
+.tag{display:inline-block;font-size:.75rem;color:var(--muted);border:1px solid var(--line);border-radius:2rem;padding:.1rem .6rem;margin-right:.3rem}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.92rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:.45rem .7rem;text-align:left}
+th{background:var(--code)}
+pre{background:var(--code);border:1px solid var(--line);border-radius:6px;padding:1rem;overflow-x:auto;font-size:.83rem;line-height:1.45}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+p code,li code,td code{background:var(--code);padding:.1rem .35rem;border-radius:4px;font-size:.88em}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}
+</style>
+</head>
+<body><div class="wrap">
+<nav class="top"><a href="{{ '/' | relative_url }}">Algorithms &amp; Data Structures in Java</a>
+{% if page.category %} · {{ page.category }}{% endif %}</nav>
+{{ content }}
+<footer>
+Maintained by <a href="https://github.com/YauhenBichel">Yauhen Bichel</a> ·
+<a href="https://github.com/{{ site.repository }}">Source on GitHub</a> ·
+<a href="https://leetcode.com/ybichel/">LeetCode</a> ·
+<a href="https://www.linkedin.com/in/yauhen-bichel">LinkedIn</a>
+</footer>
+</div></body></html>
