@@ -34,6 +34,26 @@ You need a JDK; the Gradle wrapper handles the rest.
 - State the time and space complexity in a comment at the top of each implementation.
 - Prefer clarity over cleverness. This is a reference people read, not a golf course.
 
+## Continuous integration
+
+Every pull request runs:
+
+| Check | Blocking | What it does |
+|---|---|---|
+| **Build** | ✅ | `./gradlew compileJava compileTestJava` on JDK 17 |
+| **Secret scan** | ✅ | gitleaks over the full history |
+| **Repository hygiene** | ✅ | Blocks credential files, committed build output, and files over 2MB |
+| **Tests** | ❌ *(for now)* | Runs the JUnit suite and posts a pass/fail table to the run summary |
+
+Tests are **reporting-only** because 8 of 66 tests currently fail on `master`,
+unrelated to any incoming change — blocking on them would reject every
+contribution. Fixing those is tracked as its own issue, after which this
+becomes a required check.
+
+Checks run with no repository secrets and a read-only token. If you are a
+first-time contributor, a maintainer approves the run before it starts —
+that is normal, not a problem with your PR.
+
 ## Making a change
 
 1. Fork and branch: `git checkout -b add-dijkstra-tests`
