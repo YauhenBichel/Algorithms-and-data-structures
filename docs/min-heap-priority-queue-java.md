@@ -199,4 +199,4 @@ class MinHeapTest {
 
 ## Source
 
-[`src/main/java/com/bichel/datastructure/MinHeap.java`](https://github.com/YauhenBichel/Algorithms-and-data-structures/blob/master/src/main/java/com/bichel/datastructure/MinHeap.java) on GitHub.
+[`src/main/java/com/bichel/datastructure/MinHeap.java`](https://github.com/YauhenBichel/Algorithms-and-data-structures/blob/main/src/main/java/com/bichel/datastructure/MinHeap.java) on GitHub.

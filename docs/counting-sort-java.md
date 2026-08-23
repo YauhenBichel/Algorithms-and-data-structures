@@ -47,4 +47,4 @@ public class Counting {
 
 ## Source
 
-[`src/main/java/com/bichel/algorithms/problemsheap/sort/counting/Counting.java`](https://github.com/YauhenBichel/Algorithms-and-data-structures/blob/master/src/main/java/com/bichel/algorithms/problemsheap/sort/counting/Counting.java) on GitHub.
+[`src/main/java/com/bichel/algorithms/problemsheap/sort/counting/Counting.java`](https://github.com/YauhenBichel/Algorithms-and-data-structures/blob/main/src/main/java/com/bichel/algorithms/problemsheap/sort/counting/Counting.java) on GitHub.

@@ -23,7 +23,7 @@ git checkout -b add-dijkstra-tests
 ./gradlew compileJava compileTestJava
 ./gradlew test
 
-# 4. Make your change, then push and open a pull request against master
+# 4. Make your change, then push and open a pull request against main
 git push origin add-dijkstra-tests
 ```
 
@@ -38,7 +38,7 @@ You need a JDK 17; the Gradle wrapper handles everything else.
 
 ## Two things worth knowing before you start
 
-**1. Eight tests currently fail on `master`.** `./gradlew test` reports 58 passed, 8 failed. These
+**1. Eight tests currently fail on `main`.** `./gradlew test` reports 58 passed, 8 failed. These
 predate your change — see [issue #3](https://github.com/YauhenBichel/Algorithms-and-data-structures/issues/3).
 If you see those eight fail, that is expected and not caused by your work.
 

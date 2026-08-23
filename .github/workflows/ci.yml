@@ -7,9 +7,9 @@ name: CI
 
 on:
   pull_request:
-    branches: [master]
+    branches: [main]
   push:
-    branches: [master]
+    branches: [main]
 
 permissions:
   contents: read
@@ -88,7 +88,7 @@ jobs:
   tests:
     name: Tests (reporting only)
     runs-on: ubuntu-latest
-    # Non-blocking: 8 of 66 tests fail on master already, unrelated to any
+    # Non-blocking: 8 of 66 tests fail on main already, unrelated to any
     # incoming change. Blocking on them would reject every contribution.
     # Once those are fixed this becomes a required check.
     continue-on-error: true

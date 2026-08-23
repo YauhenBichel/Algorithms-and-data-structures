@@ -158,4 +158,4 @@ public class QuickSort {
 
 ## Source
 
-[`src/main/java/com/bichel/algorithms/problemsheap/sort/quicksort/QuickSort.java`](https://github.com/YauhenBichel/Algorithms-and-data-structures/blob/master/src/main/java/com/bichel/algorithms/problemsheap/sort/quicksort/QuickSort.java) on GitHub.
+[`src/main/java/com/bichel/algorithms/problemsheap/sort/quicksort/QuickSort.java`](https://github.com/YauhenBichel/Algorithms-and-data-structures/blob/main/src/main/java/com/bichel/algorithms/problemsheap/sort/quicksort/QuickSort.java) on GitHub.

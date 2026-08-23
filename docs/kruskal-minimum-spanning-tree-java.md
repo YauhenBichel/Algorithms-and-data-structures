@@ -28,4 +28,4 @@ public class KruskalsAlg {
 
 ## Source
 
-[`src/main/java/com/bichel/algorithms/popularproblems/graph/KruskalsAlg.java`](https://github.com/YauhenBichel/Algorithms-and-data-structures/blob/master/src/main/java/com/bichel/algorithms/popularproblems/graph/KruskalsAlg.java) on GitHub.
+[`src/main/java/com/bichel/algorithms/popularproblems/graph/KruskalsAlg.java`](https://github.com/YauhenBichel/Algorithms-and-data-structures/blob/main/src/main/java/com/bichel/algorithms/popularproblems/graph/KruskalsAlg.java) on GitHub.

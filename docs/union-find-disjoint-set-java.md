@@ -72,4 +72,4 @@ public class UnionFind {
 
 ## Source
 
-[`src/main/java/com/bichel/datastructure/UnionFind.java`](https://github.com/YauhenBichel/Algorithms-and-data-structures/blob/master/src/main/java/com/bichel/datastructure/UnionFind.java) on GitHub.
+[`src/main/java/com/bichel/datastructure/UnionFind.java`](https://github.com/YauhenBichel/Algorithms-and-data-structures/blob/main/src/main/java/com/bichel/datastructure/UnionFind.java) on GitHub.

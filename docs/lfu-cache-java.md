@@ -140,4 +140,4 @@ public class LFUCache {
 
 ## Source
 
-[`src/main/java/com/bichel/algorithms/unsorted/LFUCache.java`](https://github.com/YauhenBichel/Algorithms-and-data-structures/blob/master/src/main/java/com/bichel/algorithms/unsorted/LFUCache.java) on GitHub.
+[`src/main/java/com/bichel/algorithms/unsorted/LFUCache.java`](https://github.com/YauhenBichel/Algorithms-and-data-structures/blob/main/src/main/java/com/bichel/algorithms/unsorted/LFUCache.java) on GitHub.

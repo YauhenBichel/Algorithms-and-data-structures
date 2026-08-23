@@ -76,4 +76,4 @@ public class CoinChange {
 
 ## Source
 
-[`src/main/java/com/bichel/algorithms/problemsheap/dynamic_programming/CoinChange.java`](https://github.com/YauhenBichel/Algorithms-and-data-structures/blob/master/src/main/java/com/bichel/algorithms/problemsheap/dynamic_programming/CoinChange.java) on GitHub.
+[`src/main/java/com/bichel/algorithms/problemsheap/dynamic_programming/CoinChange.java`](https://github.com/YauhenBichel/Algorithms-and-data-structures/blob/main/src/main/java/com/bichel/algorithms/problemsheap/dynamic_programming/CoinChange.java) on GitHub.

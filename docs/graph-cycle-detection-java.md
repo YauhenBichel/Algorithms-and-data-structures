@@ -96,4 +96,4 @@ public class Acyclicity {
 
 ## Source
 
-[`src/main/java/com/bichel/algorithms/problemsheap/graph/Acyclicity.java`](https://github.com/YauhenBichel/Algorithms-and-data-structures/blob/master/src/main/java/com/bichel/algorithms/problemsheap/graph/Acyclicity.java) on GitHub.
+[`src/main/java/com/bichel/algorithms/problemsheap/graph/Acyclicity.java`](https://github.com/YauhenBichel/Algorithms-and-data-structures/blob/main/src/main/java/com/bichel/algorithms/problemsheap/graph/Acyclicity.java) on GitHub.

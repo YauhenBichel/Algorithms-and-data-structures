@@ -152,4 +152,4 @@ public class BloomFilter {
 
 ## Source
 
-[`src/main/java/com/bichel/datastructure/BloomFilter.java`](https://github.com/YauhenBichel/Algorithms-and-data-structures/blob/master/src/main/java/com/bichel/datastructure/BloomFilter.java) on GitHub.
+[`src/main/java/com/bichel/datastructure/BloomFilter.java`](https://github.com/YauhenBichel/Algorithms-and-data-structures/blob/main/src/main/java/com/bichel/datastructure/BloomFilter.java) on GitHub.
