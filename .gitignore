@@ -1,3 +1,16 @@
-/.idea/
-/.build/
-/.gradle/
+# build output
+build/
+out/
+*.class
+*.jar
+
+# gradle
+.gradle/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
